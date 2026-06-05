@@ -115,7 +115,8 @@ The project will follow a phased software development approach:
 - **Frontend:** React.js (or simple HTML/CSS/JavaScript for lightweight prototype)  
 - **Backend:** Node.js with Express (or Python Flask)  
 - **Database:** Firebase / MongoDB (for user data and logs)  
-- **AI Component:** Large Language Model API service (e.g., OpenAI, Anthropic, or similar) or equivalent NLP service (selected after checking student budget, free-tier limits, request rate limits, response latency, answer quality, and data privacy needs)  
+- **AI Component:** Large Language Model API service (e.g., OpenAI, Anthropic, or similar) or equivalent NLP service  
+  - Selection criteria: student budget, free-tier limits, request rate limits, response latency, answer quality, and data privacy needs  
 - **Version Control:** Git and GitHub  
 - **Testing:** Basic functional and user acceptance testing  
 - **Deployment (optional):** Vercel / Render / Firebase Hosting
