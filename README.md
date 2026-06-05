@@ -115,7 +115,7 @@ The project will follow a phased software development approach:
 - **Frontend:** React.js (or simple HTML/CSS/JavaScript for lightweight prototype)  
 - **Backend:** Node.js with Express (or Python Flask)  
 - **Database:** Firebase / MongoDB (for user data and logs)  
-- **AI Component:** OpenAI API or equivalent NLP service (selected after checking student budget, free-tier limits, and request rate limits)  
+- **AI Component:** Large Language Model API service (e.g., OpenAI, Anthropic, or similar) or equivalent NLP service (selected after checking student budget, free-tier limits, and request rate limits)  
 - **Version Control:** Git and GitHub  
 - **Testing:** Basic functional and user acceptance testing  
 - **Deployment (optional):** Vercel / Render / Firebase Hosting
@@ -135,11 +135,11 @@ By the end of this FYP, the following outcomes are expected:
 
 ## Timeline (Optional)
 
-| Phase | Duration |
-|---|---|
-| Requirement Gathering | Weeks 1–2 |
-| Literature Review | Weeks 3–4 |
-| Design & Planning | Weeks 5–6 |
-| Development | Weeks 7–11 |
-| Testing & Evaluation | Weeks 12–13 |
-| Documentation & Final Submission | Weeks 14–16 |
+| Phase | Duration | Key Milestone |
+|---|---|---|
+| Requirement Gathering | Weeks 1–2 | Survey/interview summary and finalized requirements |
+| Literature Review | Weeks 3–4 | Basic review chapter draft completed |
+| Design & Planning | Weeks 5–6 | Architecture and feature plan approved by supervisor |
+| Development | Weeks 7–11 | Working prototype with core chatbot and planner features |
+| Testing & Evaluation | Weeks 12–13 | User feedback report and issue fixes |
+| Documentation & Final Submission | Weeks 14–16 | Final report, slides, and demo readiness |
