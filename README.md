@@ -72,7 +72,7 @@ The project will **not** include:
 - Full replacement of teachers or formal tutoring  
 - Deep psychological counseling  
 - Large-scale nationwide deployment  
-- Highly advanced personalization requiring very large proprietary datasets
+- Highly advanced personalization requiring large proprietary datasets (for example, long-term individual learning histories or institutional assessment records)
 
 ---
 
@@ -115,7 +115,7 @@ The project will follow a phased software development approach:
 - **Frontend:** React.js (or simple HTML/CSS/JavaScript for lightweight prototype)  
 - **Backend:** Node.js with Express (or Python Flask)  
 - **Database:** Firebase / MongoDB (for user data and logs)  
-- **AI Component:** Large Language Model API service (e.g., OpenAI, Anthropic, or similar) or equivalent NLP service (selected after checking student budget, free-tier limits, and request rate limits)  
+- **AI Component:** Large Language Model API service (e.g., OpenAI, Anthropic, or similar) or equivalent NLP service (selected after checking student budget, free-tier limits, request rate limits, response latency, answer quality, and data privacy needs)  
 - **Version Control:** Git and GitHub  
 - **Testing:** Basic functional and user acceptance testing  
 - **Deployment (optional):** Vercel / Render / Firebase Hosting
