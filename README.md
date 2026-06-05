@@ -72,7 +72,7 @@ The project will **not** include:
 - Full replacement of teachers or formal tutoring  
 - Deep psychological counseling  
 - Large-scale nationwide deployment  
-- Highly advanced personalization requiring very large private datasets
+- Highly advanced personalization requiring very large proprietary datasets
 
 ---
 
@@ -100,7 +100,7 @@ The project will follow a phased software development approach:
    Build a web/mobile-friendly chatbot interface with core features.
 
 4. **AI Integration**  
-   Use an LLM API or NLP model for generating responses, with prompt rules to keep answers simple and academic.
+   Choose one approach based on FYP limits: (a) hosted LLM API for faster development, or (b) local/open-source NLP model for lower recurring cost and better offline control. Use prompt rules to keep answers simple and academic.
 
 5. **Testing and Evaluation**  
    Conduct functional testing and limited user testing with students.
@@ -115,7 +115,7 @@ The project will follow a phased software development approach:
 - **Frontend:** React.js (or simple HTML/CSS/JavaScript for lightweight prototype)  
 - **Backend:** Node.js with Express (or Python Flask)  
 - **Database:** Firebase / MongoDB (for user data and logs)  
-- **AI Component:** OpenAI API or equivalent NLP service  
+- **AI Component:** OpenAI API or equivalent NLP service (selected after checking student budget, free-tier limits, and request rate limits)  
 - **Version Control:** Git and GitHub  
 - **Testing:** Basic functional and user acceptance testing  
 - **Deployment (optional):** Vercel / Render / Firebase Hosting
